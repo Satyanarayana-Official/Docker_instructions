@@ -1,4 +1,12 @@
+# Official Documentation
+```
+https://docs.docker.com/engine/install/rhel/
+```
+
 ## Below Are The Docker Installation Steps
+
+
+# Installation methods
 
 ### Set up the repository
 Install the dnf-plugins-core package (which provides the commands to manage your DNF repositories) and set up the repository.
@@ -31,4 +39,19 @@ sudo usermod -aG docker ec2-user
 ```
 
 ### Note: Images, containers, volumes, and networks stored in `/var/lib/docker/` aren't automatically removed when you uninstall Docker.
+
+
+## Uninstall old versions
+
+sudo dnf remove docker \
+                  docker-client \
+                  docker-client-latest \
+                  docker-common \
+                  docker-latest \
+                  docker-latest-logrotate \
+                  docker-logrotate \
+                  docker-engine \
+                  podman \
+                  runc
+
 

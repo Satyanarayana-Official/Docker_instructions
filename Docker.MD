@@ -43,6 +43,7 @@ sudo usermod -aG docker ec2-user
 
 ## Uninstall old versions
 
+```
 sudo dnf remove docker \
                   docker-client \
                   docker-client-latest \
@@ -53,5 +54,5 @@ sudo dnf remove docker \
                   docker-engine \
                   podman \
                   runc
-
+```
 

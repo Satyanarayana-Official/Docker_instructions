@@ -49,3 +49,20 @@ RUN : run instruction configure in the image like installing packages, doing som
 
 `RUN executes at the time of image building`
 
+
+CMD is useful to run nginx or anyother service to run background it means it should not be a exited state
+
+EX: systemctl start nginx -->> etc/systemd/system/nginx.service
+
+CMD ["nginx","-g","daemon off;"]
+
+-g meaning : Set global configuration directives.
+
+COPY : copies the code from local to container
+
+ADD :
+
+COPY and ADD both copies the code from local to container
+
+`1. it can directly fetch the file from internet`
+`1. 

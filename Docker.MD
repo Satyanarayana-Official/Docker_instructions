@@ -19,7 +19,7 @@ sudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker
 ### Install Docker Engine
 
 ```
-sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 ```
 
 ### Start Docker Engine.

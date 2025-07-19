@@ -42,3 +42,10 @@ FROM : this is the first instruction in dockerfile for base image
 
 docker build -t from:v1 . -->> current directory has dockerfile
 
+docker pull alpine [its very less mb ]
+
+RUN : run instruction configure in the image like installing packages, doing some configurations, etc
+
+
+`RUN executes at the time of image building`
+

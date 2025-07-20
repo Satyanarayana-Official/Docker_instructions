@@ -97,8 +97,16 @@ You can always override default args through command line
 USER:
 inside the container we can change the user id from root to normal user with mentioned specifically
 
+```
 docker build -t workdir:v1 --no-chache  --progress=plain .
+```
 
 WORKDIR :
 We can setup working directory inside the container
 
+ARG:
+Arg is the variable to pass as first command before FROM
+also ARG is a build time variable they can't accessed inside the container , ENV can be accessed build time and then inside the container also
+
+docker build -t arg:v1 --progress=plan --no-cache --build-arg engineer=satya .
+arg instruction variables can be overriden

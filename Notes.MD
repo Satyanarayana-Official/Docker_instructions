@@ -75,6 +75,13 @@ with this we can provide labels to contaienr to understand and filter the contai
 docker images --filter "label=NAME=Satya"
 like this we can filter images also when we require
 
+-----
+## docker login
+docker login -u username
+and password
+
+
+
 
 ENTRYPOINT:
 

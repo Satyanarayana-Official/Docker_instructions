@@ -110,3 +110,19 @@ also ARG is a build time variable they can't accessed inside the container , ENV
 
 docker build -t arg:v1 --progress=plan --no-cache --build-arg engineer=satya .
 arg instruction variables can be overriden
+
+in the below we can see arg
+[root@d3bf903aa8b1 /]# env
+HOSTNAME=d3bf903aa8b1
+NAME=satya
+PWD=/
+CITY=rjy
+HOME=/root
+LANG=C.utf8
+TERM=xterm
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SHLVL=1
+DEBUGINFOD_URLS=%{dist_debuginfod_url}
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+_=/usr/bin/env

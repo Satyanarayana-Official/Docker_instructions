@@ -80,6 +80,9 @@ like this we can filter images also when we require
 docker login -u username
 and password
 
+EXPOSE: 
+will show the ports which is opened also it is purely for documentation purpose
+
 
 
 

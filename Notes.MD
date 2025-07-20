@@ -131,3 +131,21 @@ docker build -t arg:v1 --progress=plain --no-cache --build-arg engineer=satya .
 docker build -t arg:v1 --progress=plain --no-cache --build-arg ROLE=DevSecOps_Engineer .
 
 docker build -t arg:v1 --progress=plain --no-cache --build-arg version=8 .[we can pass version without build the docker file ]
+
+`docker build -t arg:v1 --no-cache --progress=plain .`
+[root@341cbbbdc57f /]# env
+HOSTNAME=341cbbbdc57f
+PWD=/
+HOME=/root
+LANG=C.utf8
+city=rjy
+role=DevSecOps_Engineer
+TERM=xterm
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+SHLVL=1
+DEBUGINFOD_URLS=%{dist_debuginfod_url}
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+name=satya
+_=/usr/bin/env
+

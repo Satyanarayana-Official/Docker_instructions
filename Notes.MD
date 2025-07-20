@@ -83,7 +83,8 @@ and password
 EXPOSE: 
 will show the ports which is opened also it is purely for documentation purpose
 
-
+ENV :
+its just a key value pair variables and we can access them inside the container
 
 
 ENTRYPOINT:

@@ -65,5 +65,15 @@ ADD :
 COPY and ADD both copies the code from local to container
 
 `1. it can directly fetch the file from internet`
-`2. it can directly untar files into container`
+`2. it can directly untar the files into container`
+
+Docker home directory /var/lib/docker
+
+LABEL: 
+with this we can provide labels to contaienr to understand and filter the container aslo it is useful to identify the container
+
+
+
+ENTRYPOINT:
+
 

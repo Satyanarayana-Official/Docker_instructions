@@ -99,3 +99,6 @@ inside the container we can change the user id from root to normal user with men
 
 docker build -t workdir:v1 --no-chache  --progress=plain .
 
+WORKDIR :
+We can setup working directory inside the container
+

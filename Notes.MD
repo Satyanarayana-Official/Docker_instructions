@@ -95,3 +95,7 @@ but entrypoint we cannot overriden
 You can always override default args through command line
 
 USER:
+inside the container we can change the user id from root to normal user with mentioned specifically
+
+docker build -t workdir:v1 --no-chache  --progress=plain .
+

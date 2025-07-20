@@ -86,8 +86,12 @@ will show the ports which is opened also it is purely for documentation purpose
 ENV :
 its just a key value pair variables and we can access them inside the container
 
+docker run 
 
 ENTRYPOINT :
 cmd instruction can be overriden
 but entrypoint we cannot overriden
+`we can use combination of CMD and ENTRYPOINT for better resutls, ENTRYPOINT will have command, default args can be supplied by CMD`
+You can always override default args through command line
 
+USER:

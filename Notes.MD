@@ -126,3 +126,6 @@ DEBUGINFOD_URLS=%{dist_debuginfod_url}
 DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
 PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 _=/usr/bin/env
+
+docker build -t arg:v1 --progress=plain --no-cache --build-arg engineer=satya .
+docker build -t arg:v1 --progress=plain --no-cache --build-arg ROLE=DevSecOps_Engineer .

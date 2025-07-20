@@ -148,4 +148,3 @@ DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
 PATH=/root/.local/bin:/root/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 name=satya
 _=/usr/bin/env
-

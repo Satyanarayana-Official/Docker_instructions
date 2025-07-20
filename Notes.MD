@@ -87,7 +87,7 @@ ENV :
 its just a key value pair variables and we can access them inside the container
 
 
-ENTRYPOINT:
-we can't bifiricate traffic when using entry point
-
+ENTRYPOINT :
+cmd instruction can be overriden
+but entrypoint we cannot overriden
 

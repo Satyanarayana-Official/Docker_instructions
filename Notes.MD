@@ -129,3 +129,5 @@ _=/usr/bin/env
 
 docker build -t arg:v1 --progress=plain --no-cache --build-arg engineer=satya .
 docker build -t arg:v1 --progress=plain --no-cache --build-arg ROLE=DevSecOps_Engineer .
+
+docker build -t arg:v1 --progress=plain --no-cache --build-arg version=8 .[we can pass version without build the docker file ]

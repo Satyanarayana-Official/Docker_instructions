@@ -72,6 +72,8 @@ Docker home directory /var/lib/docker
 LABEL: 
 with this we can provide labels to contaienr to understand and filter the container aslo it is useful to identify the container
 
+docker images --filter "label=NAME=Satya"
+like this we can filter images also when we require
 
 
 ENTRYPOINT:
